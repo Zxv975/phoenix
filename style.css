@@ -32,6 +32,12 @@ html, body {
 	height: 100%;
 }
 
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -40,3 +46,31 @@ html, body {
   backface-visibility: visible;
 }
 
+.section-div {
+	padding: 10%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.contact-form {
+	margin: auto;
+	width: 60%;
+	text-align: center;
+	padding: 2%;
+}

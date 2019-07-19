@@ -11,9 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="jquery-3.4.1.js"></script>
 	<script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.js"></script>
-	<style>
-
-	</style>
 </head>
 
 
@@ -68,16 +65,64 @@
 		</div>
 	</div>
 </div>
-<!--- Jumbotron -->
-
 
 <!--- Calculator -->
-
+<div class = "section-div center">
+	<p>Calculator goes here</p>
+</div>
+<hr class="my-4">
 
 <!--- Awards -->
 
 
+
+<div id="award-div" class = "section-div">
+	<p><b>See our experience</b></p>
+	<br/>
+	<p>Here is a list of our awards</p>
+</div>
+
+<hr class="my-4">
+
+
 <!--- Contact form -->
+<div id="award-div" class = "section-div">
+	<div class="row">
+		<div class="column">
+			<p><b>Contact us</b></p>
+		</div>
+		<div class = "column">
+			<form class="form contact-form" style="background-color:#888888">
+			    <input type="hidden" id="form-submission-nonce" name="form-submission-nonce" value="ee2a3c6954">
+				<input type="hidden" name="_wp_http_referer" value="/">
+			    <h3 style="font-size:22px; color:#ffffff"> Get in touch! </h3>
+			    <p class="flex-center input-wrapper"> 
+					<input name="form_name" type="text" placeholder="Name *" style="font-size:14px" oninput="this.value = this.value.replace(/[^a-zA-Z ]/g, '');" required> 
+				</p>
+				<p class="flex-center input-wrapper">
+					<input name="form_email" type="email" placeholder="Email *" style="font-size:14px" oninput="" required> 
+				</p>
+				<p class="flex-center input-wrapper"> 
+					<input maxlength="15" name="form_phone" type="tel" placeholder="Phone *" style="font-size:14px" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" required>
+				</p>
+				<p class="flex-center input-wrapper"> 
+					<input maxlength="15" name="form_postcode" type="tel" placeholder="Postcode *" style="font-size:14px" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');" required> 
+				</p>
+				<p class="flex-center input-wrapper"> 
+					<textarea name="form_message" placeholder="Message *" style="font-size:14px" required=""></textarea> 
+				</p>
+			    <p class="input-wrapper">
+			        <button type="submit" class="btn" style="color:#ffffff;background-color:#daac34;box-shadow:0 3px #d89b00;border-radius:6px">
+			        <h3 style="margin:0;font-size:22px;color:#ffffff">
+			            Speak to us now          
+					</h3>
+			        </button>
+			    </p>
+			</form>
+		</div>
+	</div>
+</div>
+
 
 
 <!--- Share -->
